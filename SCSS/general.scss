@@ -1,0 +1,56 @@
+// header general para todas las paginas 
+
+header{
+    //background-color:white;
+    //background-image: linear-gradient($ColordeFondoHeader,$colorDeFondoHeader2);
+    
+border-bottom: $ColordeFondoHeader 1px solid;
+   img{
+       height: 80px;
+       margin: 30px;
+       
+       
+   }
+   li{
+      // background-color:$ColordeFondoHeader;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 2px;
+       
+       height: 40px;
+       width: 120px;
+       margin: 3px;
+   }
+   nav{
+       
+       height: 105px;
+       display: flex;
+       align-items: flex-start;
+   }
+}
+.dropdown-item{
+    background-color: red;
+}
+// main general para todas las paginas 
+
+main{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+//Footer general para todas las paginas 
+
+.footer-interno{
+    text-align: center;
+    background-color:black;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 300px;
+    align-items: center;
+    color: blanchedalmond;
+    background-image: linear-gradient(#1F6566,black);
+}

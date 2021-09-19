@@ -1,0 +1,54 @@
+header {
+  border-bottom: #1F6566 1px solid; }
+  header img {
+    height: 80px;
+    margin: 30px; }
+  header li {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 2px;
+    height: 40px;
+    width: 120px;
+    margin: 3px; }
+  header nav {
+    height: 105px;
+    display: flex;
+    align-items: flex-start; }
+
+.dropdown-item {
+  background-color: red; }
+
+main {
+  height: 100%;
+  width: 100%; }
+
+.footer-interno {
+  text-align: center;
+  background-color: black;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 300px;
+  align-items: center;
+  color: blanchedalmond;
+  background-image: linear-gradient(#1F6566, black); }
+
+.imgCarrusel img {
+  height: 400px;
+  margin: 1px; }
+
+.imgPresentacion {
+  background-image: url("../imagenes/Captura.PNG");
+  background-size: contain;
+  background-color: palegreen;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center; }
+  .imgPresentacion p {
+    font-size: 30px;
+    color: #1F6566;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle; }
